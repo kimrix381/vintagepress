@@ -27,21 +27,32 @@ import cert4 from "../assets/cert4.jpg";
 import cert5 from "../assets/cert5.jpg";
 import cert6 from "../assets/cert6.jpg";
 import choirlogo from "../assets/choirlogo.jpg";
-import shirts from "../assets/shirts.png";
-import promotion from "../assets/promotion.png";
-import receipt from "../assets/receipt.png";
-import exercise from "../assets/exercise.png";
-import calender2 from "../assets/calender2.png";
-import poster from "../assets/poster.png";
-import general from "../assets/general.png";
-import banner from "../assets/banner.png";
+import shirts3 from "../assets/shirts3.jpg";
+import upron from "../assets/upron.jpg";
+import receipt1 from "../assets/receipt1.jpg";
+import exercise2 from "../assets/exercise2.jpg";
+import calender3 from "../assets/calender3.jpg";
+import calender4 from "../assets/calender4.jpg";
+import poster2 from "../assets/poster2.jpg";
+import cups from "../assets/cups.jpg";
+import stand from "../assets/stand.jpg";
 import machines from "../assets/machines.png";
 import registration from "../assets/registration.png";
-import tax from "../assets/tax.png";
+import cap from "../assets/cap.jpg";
+import holder from "../assets/holder.jpg";
+import pens from "../assets/pens.jpg";
+import pens2 from "../assets/pens2.jpg";
+import shirts4 from "../assets/shirts4.jpg";
+import poster1 from "../assets/poster1.jpg";
+import rollup from "../assets/rollup.jpg";
+import kayo from "../assets/kayo.jpg";
+import bag from "../assets/bag.jpg";
+import pin from "../assets/pin.jpg";
+import billboard from "../assets/billboard.jpg";
 
 const Services = () => (
-  <div className="bg-white text-gray-800 font-sans">
-    <div>
+  <div className=" bg-white text-gray-800 font-sans">
+    <div className="page 1">
       <img src={robo} alt="Loading" className="h-70   w-screen " />
       <div className="bg-gradient-to-b from-white via-cyan-100 to-white py-20 text-center px-6">
         <h1 className="text-6xl font-bold text-indigo-800 mb-4">We</h1>
@@ -55,7 +66,7 @@ const Services = () => (
           great print experience.
         </p>
       </div>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -65,7 +76,7 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
+    <div className="page 2">
       <img src={ai} alt="Loading" className="h-70   w-screen " />
       <div className="bg-gradient-to-b from-white via-cyan-100 to-white py-16 px-6 text-gray-900">
         {/* Section 1: Our way of seeing things */}
@@ -111,7 +122,7 @@ const Services = () => (
           </div>
         </div>
       </div>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -121,7 +132,7 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
+    <div className="page 3">
       <img src={graphic} alt="Loading" className="h-70   w-screen " />
       <div className="bg-gradient-to-b from-white via-cyan-100 to-white py-20 text-center px-6">
         <h1 className="text-6xl font-bold text-indigo-800 mb-4">Offer</h1>
@@ -138,7 +149,7 @@ const Services = () => (
           more.
         </p>
       </div>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -148,7 +159,7 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
+    <div className="page 4">
       <img src={printer} alt="Loading" className="h-70   w-screen " />
       <section className="bg-gradient-to-b from-white via-blue-100 to-white py-12 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
@@ -224,7 +235,7 @@ const Services = () => (
           </div>
         </div>
       </section>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -234,7 +245,7 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
+    <div className="page 5">
       <img src={printers} alt="Loading" className="h-70   w-screen " />
       <div className="bg-gradient-to-b from-white via-cyan-100 to-white py-20 text-center px-6">
         <h1 className="text-6xl font-bold text-indigo-800 mb-4">Best</h1>
@@ -248,7 +259,7 @@ const Services = () => (
           customers the most dependable customer services.
         </p>
       </div>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -258,11 +269,11 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
+    <div className="page 6">
       <img src={splash} alt="Loading" className="h-100   w-screen " />
       <img src={branding} alt="Loading" className="h-200   w-screen " />
 
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -272,7 +283,7 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
+    <div className="page 7">
       <img src={quality} alt="Loading" className="h-80   w-screen " />
       <div className="bg-gradient-to-b from-white via-cyan-100 to-white py-20 text-center px-6">
         <h1 className="text-6xl font-bold text-indigo-800 mb-4">Quality</h1>
@@ -289,7 +300,7 @@ const Services = () => (
           product, on time, without fail.
         </p>
       </div>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -299,7 +310,7 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
+    <div className="page 8">
       <img src={design} alt="Loading" className="h-80   w-screen " />
       <div className="p-6 bg-gradient-to-b from-white to-blue-50 space-y-8">
         {/* First we talk */}
@@ -385,7 +396,7 @@ const Services = () => (
           </div>
         </div>
       </div>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -395,7 +406,7 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
+    <div className="page 9">
       <img src={bigprinter} alt="Loading" className="h-80   w-screen " />
       <div className="bg-gradient-to-b from-white via-cyan-100 to-white py-20 text-center px-6">
         <h1 className="text-6xl font-bold text-indigo-800 mb-4">Printing</h1>
@@ -407,7 +418,7 @@ const Services = () => (
           consistency. What we promise you today we will deliver
         </p>
       </div>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -417,8 +428,8 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <img src={inquiry} alt="Loading" className="h-80   w-screen " />
+    <div className="page 10">
+      <img src={inquiry} alt="Loading" className="h-80   w-[1480px] " />
       <div className="p-6 bg-gradient-to-b from-white to-blue-50 space-y-8">
         {/* Enquiry */}
         <div className="flex items-start space-x-3">
@@ -492,7 +503,7 @@ const Services = () => (
           </div>
         </div>
       </div>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -502,10 +513,10 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 11">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px]  ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px] " />
         </div>
         <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
           <h1 className="text-white text-3xl italic font-bold">
@@ -620,7 +631,7 @@ const Services = () => (
           </div>
         </div>
       </section>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-[1480px] mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -630,10 +641,10 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 12">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px] ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px] " />
         </div>
         <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
           <h1 className="text-white text-3xl italic font-bold">
@@ -651,11 +662,11 @@ const Services = () => (
           <div>
             <h3 className="text-red-600 text-xl font-semibold mb-4"></h3>
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="w-full h-52 bg-gray-200 border border-blue-700 rounded shadow-sm">
+              <div className=" h-52 bg-gray-200 border border-blue-700 rounded shadow-sm">
                 <img
                   src={whitelogo}
                   alt="Conference Note Pad 1"
-                  className="w-full h-full "
+                  className=" h-full "
                 />
               </div>
             </div>
@@ -665,8 +676,8 @@ const Services = () => (
           <div>
             <h3 className="text-red-600 text-xl font-semibold mb-4"></h3>
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="w-full h-52 bg-gray-200 border border-blue-700 rounded shadow-sm">
-                <img src={uzimalogo} alt="Flier 1" className="w-full h-full " />
+              <div className=" h-52 bg-gray-200 border border-blue-700 rounded shadow-sm">
+                <img src={uzimalogo} alt="Flier 1" className=" h-full " />
               </div>
             </div>
           </div>
@@ -675,18 +686,14 @@ const Services = () => (
           <div>
             <h3 className="text-red-600 text-xl font-semibold mb-4"></h3>
             <div className="flex  justify-center">
-              <div className="w-[500px] h-full bg-gray-200 border border-blue-700 rounded shadow-sm">
-                <img
-                  src={choirlogo}
-                  alt="Catalogue"
-                  className=" w-[500px] h-130"
-                />
+              <div className=" h-full bg-gray-200 border border-blue-700 rounded shadow-sm">
+                <img src={choirlogo} alt="Catalogue" className=" h-130" />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-[1480px] mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -696,10 +703,10 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 13">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px] ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px]" />
         </div>
         <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
           <h1 className="text-white text-3xl italic font-bold">
@@ -800,7 +807,7 @@ const Services = () => (
           </div>
         </div>
       </section>
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-[1480px] mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -810,10 +817,10 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 14">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px]  ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px] " />
         </div>
         <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
           <h1 className="text-white text-3xl italic font-bold">
@@ -821,8 +828,11 @@ const Services = () => (
           </h1>
         </div>
       </div>
-      <img src={shirts} alt="Loading" className="h-full   w-screen " />
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" p-30 ">
+        <img src={shirts3} alt="Loading" className=" " />
+        <img src={shirts4} alt="Loading" className=" " />
+      </div>
+      <div className=" bg-black h-10 w-[1480px] mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -832,10 +842,10 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 15">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px]  ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px] " />
         </div>
         <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
           <h1 className="text-white text-3xl italic font-bold">
@@ -843,8 +853,19 @@ const Services = () => (
           </h1>
         </div>
       </div>
-      <img src={promotion} alt="Loading" className="h-full   w-screen " />
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className="pt-10">
+        <div className="flex ">
+          <img src={cap} alt="Loading" className="h-130 p-10" />
+          <img src={holder} alt="Loading" className="h-80 mt-50 p-10" />
+          <img src={bag} alt="Loading" className="h-130 p-10" />
+        </div>
+        <div className="flex">
+          <img src={pens} alt="Loading" className="h-120 p-10" />
+          <img src={upron} alt="Loading" className="h-130 p-10" />
+          <img src={pin} alt="Loading" className="h-100 p-10 mt-20" />
+        </div>
+      </div>
+      <div className=" bg-black h-10 w-[1480px] mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -854,10 +875,10 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 16">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px]  ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px]" />
         </div>
         <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
           <h1 className="text-white text-3xl italic font-bold">
@@ -865,12 +886,16 @@ const Services = () => (
           </h1>
         </div>
       </div>
-      <img src={receipt} alt="Loading" className="h-full   w-screen " />
-      <div className="absolute bg-black px-6 py-2 rounded shadow-lg ml-5">
+      <img
+        src={receipt1}
+        alt="Loading"
+        className="h-full mt-10   w-[1400px] "
+      />
+      {/* <div className="absolute bg-black px-6 py-2 rounded shadow-lg ml-5">
         <h1 className="text-white text-3xl italic font-bold">Exercise Books</h1>
-      </div>
-      <img src={exercise} alt="Loading" className="h-full   w-screen " />
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      </div> */}
+      <img src={exercise2} alt="Loading" className="h-full   w-[1400px] " />
+      <div className=" bg-black h-10 w-[1480px] mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -880,17 +905,22 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 17">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px]  ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px] " />
         </div>
-        <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
-          <h1 className="text-white text-3xl italic font-bold">Calenders</h1>
-        </div>
+        {/* <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
+          <h1 className="text-white text-3xl italic font-bold"></h1>
+        </div> */}
       </div>
-      <img src={calender2} alt="Loading" className="h-full   w-screen " />
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <img src={calender3} alt="Loading" className="h-full   w-[1400px]" />
+      <img
+        src={calender4}
+        alt="Loading"
+        className="h-full   w-[1400px] pt-10"
+      />
+      <div className=" bg-black h-10 w-[1480px] mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -900,19 +930,20 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 18">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px]  ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px] " />
         </div>
-        <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
+        {/* <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
           <h1 className="text-white text-3xl italic font-bold">
-            Poster & Cards
+            
           </h1>
-        </div>
+        </div> */}
       </div>
-      <img src={poster} alt="Loading" className="h-full   w-screen " />
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <img src={poster2} alt="Loading" className="h-200 p-10 w-[1400px] " />
+      <img src={poster1} alt="Loading" className="h-200 p-10 w-[1400px] " />
+      <div className=" bg-black h-10 w-[1480px] mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -922,10 +953,10 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 19">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px] ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px] " />
         </div>
         <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
           <h1 className="text-white text-3xl italic font-bold">
@@ -933,8 +964,11 @@ const Services = () => (
           </h1>
         </div>
       </div>
-      <img src={general} alt="Loading" className="h-full   w-screen " />
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className="flex gap-100 mt-20">
+        <img src={cups} alt="Loading" className="h-150 " />
+        <img src={pens2} alt="Loading" className="h-150 " />
+      </div>
+      <div className=" bg-black h-10 w-[1480px] mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -944,10 +978,10 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 20">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px]  ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px] " />
         </div>
         <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
           <h1 className="text-white text-3xl italic font-bold">
@@ -955,8 +989,13 @@ const Services = () => (
           </h1>
         </div>
       </div>
-      <img src={banner} alt="Loading" className="h-full   w-screen " />
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className="flex mt-20 ">
+        <img src={stand} alt="Loading" className="h-150 p-10 w-100 " />
+        <img src={rollup} alt="Loading" className="h-150 p-10 w-80 " />
+        <img src={kayo} alt="Loading" className="h-150 p-10 w-150 " />
+      </div>
+      <img src={billboard} alt="Loading" className="h-200 p-10 w-screen " />
+      <div className=" bg-black h-10 w-[1480px] mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -966,10 +1005,10 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
-      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
+    <div className="page 21">
+      <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-[1480px] ">
         <div>
-          <img src={network} alt="Loading" className="h-45   w-screen " />
+          <img src={network} alt="Loading" className="h-45   w-[1480px] " />
         </div>
         <div className="absolute -bottom-8 bg-black px-6 py-2 rounded shadow-lg ml-5">
           <h1 className="text-white text-3xl italic font-bold">
@@ -977,8 +1016,8 @@ const Services = () => (
           </h1>
         </div>
       </div>
-      <img src={machines} alt="Loading" className="h-full   w-screen " />
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <img src={machines} alt="Loading" className="h-full   w-[1400px] " />
+      <div className=" bg-black h-10 w-[1480px]  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -988,7 +1027,7 @@ const Services = () => (
         </p>
       </div>
     </div>
-    <div>
+    {/* <div>
       <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
         <div>
           <img src={network} alt="Loading" className="h-45   w-screen " />
@@ -1000,7 +1039,7 @@ const Services = () => (
         </div>
       </div>
       <img src={registration} alt="Loading" className="h-full   w-screen " />
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -1009,8 +1048,8 @@ const Services = () => (
           </ol>
         </p>
       </div>
-    </div>
-    <div>
+    </div> */}
+    {/* <div>
       <div className="relative bg-gradient-to-r from-blue-800 to-blue-400 h-40 flex items-center  justify-start  w-screen  ">
         <div>
           <img src={network} alt="Loading" className="h-45   w-screen " />
@@ -1022,7 +1061,7 @@ const Services = () => (
         </div>
       </div>
       <img src={tax} alt="Loading" className="h-full   w-screen mt-10" />
-      <div className=" bg-black h-10 w-screen -ml-5 mt-10 flex-start mb-10 ">
+      <div className=" bg-black h-10 w-screen  mt-10 flex-start mb-10 ">
         <p className="text-white text-center text-lg font-semibold ">
           <ol className="flex gap-[300px] text-center justify-center items-center">
             {" "}
@@ -1031,7 +1070,7 @@ const Services = () => (
           </ol>
         </p>
       </div>
-    </div>
+    </div> */}
   </div>
 );
 export default Services;
