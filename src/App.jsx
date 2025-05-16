@@ -5,12 +5,17 @@ import Home from "./pages/home.jsx";
 import About from "./pages/about.jsx";
 import Contact from "./pages/contact.jsx";
 import Services from "./pages/services.jsx";
+import MySlider from "./components/myslider.jsx";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
   return (
     <div>
       <Router>
         <Navbar />
+
         <main>
           <Routes>
             <Route path="/" element={<Home />} />

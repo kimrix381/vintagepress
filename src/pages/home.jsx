@@ -1,6 +1,9 @@
 import whoarewe2 from "../assets/whoarewe2.jpg";
 import whitelogo from "../assets/whitelogo.jpg";
 import network from "../assets/network.avif";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import MySlider from "../components/myslider.jsx";
 
 const Home = () => (
   <div className="flex flex-col items-center w-full overflow-x-hidden">
@@ -13,9 +16,11 @@ const Home = () => (
       />
     </div>
 
+    <MySlider />
+
     {/* Heading Overlay */}
-    <div className="relative w-full">
-      <div className="absolute -bottom-8 bg-black px-4 sm:px-6 py-2 rounded shadow-lg ml-5">
+    <div className="relative w-full mt-10">
+      <div className="absolute -bottom-8 bg-black px-4 sm:px-6 py-2 rounded shadow-lg ml-5 ">
         <h1 className="text-white text-2xl sm:text-3xl italic font-bold">
           Our Charisma
         </h1>
