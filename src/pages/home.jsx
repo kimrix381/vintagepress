@@ -12,7 +12,7 @@ const Home = () => (
       <img
         src={whoarewe2}
         alt="Who We Are"
-        className="w-full md:w-full h-auto object-cover "
+        className="w-full md:w-full h-[150px] md:h-[350px]  "
       />
     </div>
 

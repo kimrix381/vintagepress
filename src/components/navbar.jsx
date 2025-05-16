@@ -14,9 +14,8 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#201E1F] text-white w-full overflow-x-hidden">
-      {/* Max-width wrapper */}
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 py-4 md:py-6">
-        {/* Logo + Hamburger */}
+        {/* Logo + Hamburger + Icons */}
         <div className="flex items-center justify-between">
           <Link to="/">
             <img
@@ -25,6 +24,26 @@ const Navbar = () => {
               className="h-10 sm:h-12 md:h-14 w-auto drop-shadow hover:scale-105 transition-transform"
             />
           </Link>
+
+          {/* Icons on desktop */}
+          <div className="hidden md:flex items-center gap-4">
+            <a
+              href="https://wa.me/qr/FALBUJBWWUHQO1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 hover:text-green-400 transition"
+            >
+              <i className="bx bxl-whatsapp text-2xl"></i>
+              <span className="text-sm">WhatsApp</span>
+            </a>
+            <a
+              href="tel:+254716112800"
+              className="flex items-center gap-1 hover:text-blue-400 transition"
+            >
+              <i className="bx bx-phone text-2xl"></i>
+              <span className="text-sm">Call</span>
+            </a>
+          </div>
 
           {/* Hamburger - mobile only */}
           <button
@@ -35,7 +54,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Top line */}
         <div className="hidden md:block border-t border-white my-4" />
 
         {/* Desktop nav links */}
@@ -70,6 +88,26 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+
+            {/* WhatsApp & Phone in mobile menu */}
+            <li className="flex items-center gap-2">
+              <a
+                href="https://wa.me/qr/FALBUJBWWUHQO1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 hover:text-green-400 transition"
+              >
+                <i className="bx bxl-whatsapp text-2xl"></i>
+                <span>WhatsApp</span>
+              </a>
+              <a
+                href="tel:+254716112800"
+                className="flex items-center gap-1 hover:text-blue-400 transition"
+              >
+                <i className="bx bx-phone text-2xl"></i>
+                <span>Call</span>
+              </a>
+            </li>
           </ul>
         )}
       </div>
